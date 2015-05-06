@@ -1,0 +1,74 @@
+/* main headers */
+
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 3em;
+	padding-top: 1.5em;
+	padding-bottom: .25em;
+	background-color: #BDBDBD;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 2em;
+	padding-top: .25em;
+	padding-bottom: .1em;
+	background-color: #CEE3F6;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.4em;
+	padding-top: .5em;
+	padding-bottom: .1em;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.4em;
+	padding-top: .5em;
+	padding-bottom: .1em;
+}
+
+h6 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 5em;
+}
+
+body {
+	background-color: #0080FF;
+}
+
+/* Result boxes */
+
+#numberGuess {
+	margin: 0 auto;
+	width: 300px;
+	height: 120px;
+	background: white;
+}
+
+#result {
+	margin: 0 auto;
+	width: 300px;
+	height: 120px;
+	background: white;
+}
+
+#spacer{
+	padding: .5em;
+}
+
+
