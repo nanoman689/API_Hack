@@ -1,0 +1,164 @@
+HTTP/1.1 200 OK
+x-frame-options:
+SAMEORIGIN
+content-type:
+application/json;charset=utf-8
+x-rate-limit-remaining:
+179
+last-modified:
+Thu, 07 May 2015 03:01:53 GMT
+status:
+200 OK
+x-response-time:
+31
+date:
+Thu, 07 May 2015 03:01:53 GMT
+Connection:
+keep-alive
+x-transaction:
+dfba2adb731ed47e
+pragma:
+no-cache
+cache-control:
+no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+x-connection-hash:
+d8e497be61e188de858d3af895f20d9a
+x-xss-protection:
+1; mode=block
+x-content-type-options:
+nosniff
+x-rate-limit-limit:
+180
+expires:
+Tue, 31 Mar 1981 05:00:00 GMT
+set-cookie:
+lang=en
+set-cookie:
+guest_id=v1%3A143096771306312947; Domain=.twitter.com; Path=/; Expires=Sat, 06-May-2017 03:01:53 UTC
+content-length:
+2487
+x-rate-limit-reset:
+1430968613
+content-disposition:
+attachment; filename=json.json
+server:
+tsa_b
+x-twitter-response-tags:
+BouncerCompliant
+strict-transport-security:
+max-age=631138519
+x-access-level:
+read-write-directmessages
+
+{
+  "statuses":  [
+     {
+      "metadata":  {
+        "iso_language_code": "und",
+        "result_type": "recent"
+      },
+      "created_at": "Wed May 06 15:10:36 +0000 2015",
+      "id": 595968914598731800,
+      "id_str": "595968914598731778",
+      "text": "#jasonnumber 23",
+      "source": "<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user":  {
+        "id": 2284161180,
+        "id_str": "2284161180",
+        "name": "Nanoman689",
+        "screen_name": "nanoman689",
+        "location": "San Jose, CA",
+        "description": "Making things pretty for the universe.",
+        "url": "http://t.co/4XD0EVKk1k",
+        "entities":  {
+          "url":  {
+            "urls":  [
+               {
+                "url": "http://t.co/4XD0EVKk1k",
+                "expanded_url": "http://www.basement9.com",
+                "display_url": "basement9.com",
+                "indices":  [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description":  {
+            "urls":  []
+          }
+        },
+        "protected": false,
+        "followers_count": 2,
+        "friends_count": 33,
+        "listed_count": 0,
+        "created_at": "Thu Jan 09 21:50:59 +0000 2014",
+        "favourites_count": 0,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 2,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/421399830011711488/Hss6r4EQ_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/421399830011711488/Hss6r4EQ_normal.png",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "entities":  {
+        "hashtags":  [
+           {
+            "text": "jasonnumber",
+            "indices":  [
+              0,
+              12
+            ]
+          }
+        ],
+        "symbols":  [],
+        "user_mentions":  [],
+        "urls":  []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "und"
+    }
+  ],
+  "search_metadata":  {
+    "completed_in": 0.012,
+    "max_id": 595968914598731800,
+    "max_id_str": "595968914598731778",
+    "query": "%23jasonnumber",
+    "refresh_url": "?since_id=595968914598731778&q=%23jasonnumber&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
