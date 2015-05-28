@@ -62,11 +62,11 @@
 */
 
 
-// ##### Simple example 3 #####
+
 // A simple example to get latest 5 tweets for #API tag and shows any images
 // attached to tweets.
 var config3 = {
-	"id": '2284161180',
+	"id": '603401504280555522',
 	"domId": 'example1',
 	"maxTweets": 5,
 	"enableLinks": true,
@@ -74,6 +74,7 @@ var config3 = {
 };
 twitterFetcher.fetch(config3);
 
+/*
 
 // ##### Advanced example #####
 // An advance example to get latest 5 posts using hashtag #API and write to a
@@ -81,8 +82,8 @@ twitterFetcher.fetch(config3);
 // custom format to display the date/time of the post, and does not show
 // retweets.
 var config4 = {
-	"id": '2284161180',
-	"domId": 'example4',
+	"id": '603401504280555522',
+	"domId": 'example1',
 	"maxTweets": 3,
 	"enableLinks": true,
 	"showUser": false,
@@ -109,7 +110,7 @@ twitterFetcher.fetch(config4);
 // if you need full control over the output.
 
 var config5 = {
-	"id": '2284161180',
+	"id": '603401504280555522',
 	"domId": '',
 	"maxTweets": 3,
 	"enableLinks": true,
@@ -143,7 +144,7 @@ twitterFetcher.fetch(config5);
 // alternative custom format with moment.js to display the age of the post,
 // and does not show retweets.
 var config6 = {
-	"id": '2284161180',
+	"id": '603401504280555522',
 	"domId": 'example6',
 	"maxTweets": 3,
 	"enableLinks": true,
@@ -171,12 +172,7 @@ function momentDateFormatter(date, dateString) {
 twitterFetcher.fetch(config6);
 
 
-
-
-
-
-
-
+*/
 
 
 
